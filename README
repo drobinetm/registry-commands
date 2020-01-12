@@ -1,0 +1,8 @@
+1. Run:
+
+python UIsystem.py
+
+2. Convert .ui to .py:
+
+pyuic5 -x interfaces/database.ui -o scripts/UIdatabase.py
+pyuic5 -x interfaces/addnotescommands.ui -o scripts/UIaddnotescommands.py
